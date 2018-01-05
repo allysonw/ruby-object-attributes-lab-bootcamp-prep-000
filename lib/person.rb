@@ -6,4 +6,12 @@ class Person
   def name
     puts @name
   end
+
+  def job=(job)_
+    @job = job
+  end
+
+  def job
+    puts @job
+  end
 end
